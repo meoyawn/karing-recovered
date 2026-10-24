@@ -1,0 +1,38 @@
+karing-recovered
+Independent source-recovery and reconstruction project.
+
+Original contributions: Copyright (C) 2026 Adel Nizamutdinov.
+Original contributions are licensed under GNU GPL version 3 or later.
+The complete GPL version 3 text is provided in LICENSE.
+
+Recovered upstream application source and modified upstream application files:
+  Copyright (C) 2024 by nebula and other upstream contributors.
+  Upstream repository: https://github.com/KaringX/karing
+  Target tag: v1.2.25.2802
+  Historical recovery commit: e3c19f1eb1225dbd48a4862f0983b82d0af8de69
+  Original notice: LICENSES/Karing-LICENSE.md
+
+These upstream terms, including their name/association provision, are retained
+for recovered material and are not replaced by the license for new contributions.
+The historical file inventory is in:
+  overlay/native/reconstruction/dart-source-provenance.json
+The restored VPN wrapper is:
+  overlay/lib/app/local_services/vpn_service.dart
+Modifications to other upstream files are distributed as:
+  patches/karing-v1.2.25.2802.patch
+
+Published hotkey_manager_linux 0.2.0 source, with local safety fixes:
+  overlay/third_party/hotkey_manager_linux/
+  Copyright (c) 2022-2024 LiJianying <lijy91@foxmail.com>.
+  MIT license retained in its LICENSE file.
+
+Native backend source is fetched separately at its pinned public revision:
+  https://github.com/KaringX/sing-box
+  93f6a441a141cc4b5914a4c63dd97c77bc69281c
+Its license and the Cronet runtime dependency's license are copied into the
+local application bundle by overlay/native/linux-core/build.sh.
+
+This repository is not affiliated with or endorsed by KaringX.
+No original proprietary source, private signing keys, or original application
+release binaries are included. New implementations and historical public source
+recovery are distinguished in the provenance records and documentation.

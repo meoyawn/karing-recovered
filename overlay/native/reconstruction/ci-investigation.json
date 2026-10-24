@@ -1,0 +1,381 @@
+{
+  "observed_at_utc": "2026-10-24T19:50:16.203203+00:00",
+  "selected_release": "v1.2.25.2802",
+  "selected_commit": "0c320dc182d095ec0d483f852169421e749c2bac",
+  "public_history_scan": {
+    "command": "git rev-list --all --objects",
+    "boundary": "All objects reachable from refs available in this clone; does not include deleted unreachable/private/unfetched refs.",
+    "github_paths": [
+      ".github",
+      ".github/ISSUE_TEMPLATE",
+      ".github/ISSUE_TEMPLATE/bug_report.yml",
+      ".github/ISSUE_TEMPLATE/feature_request.yml"
+    ],
+    "workflow_paths": [],
+    "refs": {
+      "count": 668,
+      "scan_ref_examples": [
+        "refs/heads/main 60cfb75daaabd179305a1e6c5201c35c91a63cf2",
+        "refs/remotes/origin/HEAD 60cfb75daaabd179305a1e6c5201c35c91a63cf2",
+        "refs/remotes/origin/main 60cfb75daaabd179305a1e6c5201c35c91a63cf2",
+        "refs/tags/1.0.26.325 c2c99cf99c97eea6109b1276bca2b6c3ac58e3ad"
+      ],
+      "selected_tag_present": true
+    },
+    "packaging_script_paths": [
+      "pkg_android.bat",
+      "pkg_android_aab.bat",
+      "pkg_windows.bat",
+      "tools/winrar/gen_zip_install.bat"
+    ]
+  },
+  "api_evidence": {
+    "release": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/releases/tags/v1.2.25.2802",
+      "exit_code": 0,
+      "response": {
+        "id": 385948837,
+        "tag_name": "v1.2.25.2802",
+        "target_commitish": "main",
+        "created_at": "2026-09-09T02:32:50Z",
+        "published_at": "2026-09-10T02:20:39Z",
+        "zipball_url": "https://api.github.com/repos/KaringX/karing/zipball/v1.2.25.2802",
+        "tarball_url": "https://api.github.com/repos/KaringX/karing/tarball/v1.2.25.2802",
+        "html_url": "https://github.com/KaringX/karing/releases/tag/v1.2.25.2802",
+        "body": "1. Fixed an issue where VLESS node configuration errors caused connection failures\r\n2. Fixed an issue where the home screen background image did not update after restoring a backup #1943\r\n\r\n\r\niOS/tvOS AppStore: (Search Keywords: karing vpn) https://apps.apple.com/us/app/karing/id6472431552",
+        "author": "GooRingX",
+        "assets": [
+          {
+            "name": "karing_1.2.25.2802_android_arm.apk",
+            "size": 94359984,
+            "digest": "sha256:670595d787be699f960dd71e1a3eab55cdf1d4d17522851d793e49f1c6d09158",
+            "created_at": "2026-09-10T01:55:42Z",
+            "updated_at": "2026-09-10T01:56:01Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_android_arm.apk",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_android_arm64-v8a.apk",
+            "size": 55451158,
+            "digest": "sha256:b02cd70ce575942967467b56df20c8cb084bb7519f64a67567d87ff2e39458a3",
+            "created_at": "2026-09-10T01:56:05Z",
+            "updated_at": "2026-09-10T01:56:27Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_android_arm64-v8a.apk",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_android_armeabi-v7a.apk",
+            "size": 55608414,
+            "digest": "sha256:bfb122227eac0e31cae35f3e91f1bbc7497348cd0bc277b6a710e48e3ba49111",
+            "created_at": "2026-09-10T01:56:35Z",
+            "updated_at": "2026-09-10T01:56:48Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_android_armeabi-v7a.apk",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_linux_amd64.AppImage",
+            "size": 67418616,
+            "digest": "sha256:4cc0d6426f11d9cdf885aa970ac4a9a8d4924240344a13de951b4a9cc5462b90",
+            "created_at": "2026-09-10T02:30:37Z",
+            "updated_at": "2026-09-10T02:30:52Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_linux_amd64.AppImage",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_linux_amd64.deb",
+            "size": 45185872,
+            "digest": "sha256:bdadb2c7a8fbe2c7b8f18c95e5e17e3777a6a87b1e91fd7b529b3fac26b72891",
+            "created_at": "2026-09-10T02:07:32Z",
+            "updated_at": "2026-09-10T02:07:43Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_linux_amd64.deb",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_linux_amd64.rpm",
+            "size": 55972278,
+            "digest": "sha256:ebddef896d81a81f2a66313e7c5c9579d9214b05f022195b503ad5339eeacc83",
+            "created_at": "2026-09-10T02:20:00Z",
+            "updated_at": "2026-09-10T02:20:12Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_linux_amd64.rpm",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_macos_universal.dmg",
+            "size": 103163875,
+            "digest": "sha256:90aba8e17bdf15564710e84e6328ce9c9d3edcf45c79eccc1d33995d50c2f458",
+            "created_at": "2026-09-10T02:11:58Z",
+            "updated_at": "2026-09-10T02:12:32Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_macos_universal.dmg",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_macos_universal.pkg",
+            "size": 105092140,
+            "digest": "sha256:ce6a46d784ad096f299113e29661b018d68ac1dda4524f37b2234ebffcb38b35",
+            "created_at": "2026-09-15T02:28:12Z",
+            "updated_at": "2026-09-15T02:28:38Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_macos_universal.pkg",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_windows_x64.exe",
+            "size": 46800210,
+            "digest": "sha256:b94ac8b8ce4bcfd6229c81d684367ac546434dab790dc4be148696c6ca24018f",
+            "created_at": "2026-09-10T01:56:54Z",
+            "updated_at": "2026-09-10T01:57:04Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_windows_x64.exe",
+            "uploader": "GooRingX"
+          },
+          {
+            "name": "karing_1.2.25.2802_windows_x64.zip",
+            "size": 67456455,
+            "digest": "sha256:5cb60cd37100ea5e172dbda8642aa7a37e3b30ca26ba80f764aa73b742ad8843",
+            "created_at": "2026-09-10T01:57:13Z",
+            "updated_at": "2026-09-10T01:57:27Z",
+            "browser_download_url": "https://github.com/KaringX/karing/releases/download/v1.2.25.2802/karing_1.2.25.2802_windows_x64.zip",
+            "uploader": "GooRingX"
+          }
+        ]
+      }
+    },
+    "app_workflows": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/actions/workflows",
+      "exit_code": 0,
+      "response": {
+        "total_count": 1,
+        "workflows": [
+          {
+            "id": 221673032,
+            "name": "Copilot code review",
+            "path": "dynamic/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
+            "state": "active",
+            "html_url": "https://github.com/KaringX/karing/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer"
+          }
+        ]
+      }
+    },
+    "app_runs": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/actions/runs?per_page=100",
+      "exit_code": 0,
+      "response": {
+        "total_count": 1,
+        "workflow_runs": [
+          {
+            "id": 20809275644,
+            "name": "Copilot code review",
+            "path": "dynamic/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
+            "event": "dynamic",
+            "head_sha": "3d5182010aa41648dcba2b47385c5ade422636fb",
+            "created_at": "2026-01-08T07:36:58Z",
+            "status": "completed",
+            "conclusion": "success",
+            "html_url": "https://github.com/KaringX/karing/actions/runs/20809275644"
+          }
+        ]
+      }
+    },
+    "app_artifacts": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/actions/artifacts?per_page=100",
+      "exit_code": 0,
+      "response": {
+        "total_count": 0,
+        "artifacts": []
+      }
+    },
+    "commit_checks": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/commits/0c320dc1/check-runs",
+      "exit_code": 0,
+      "response": {
+        "total_count": 0,
+        "check_runs": []
+      }
+    },
+    "commit_status": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/commits/0c320dc1/status",
+      "exit_code": 0,
+      "response": {
+        "state": "pending",
+        "statuses": [],
+        "sha": "0c320dc182d095ec0d483f852169421e749c2bac",
+        "total_count": 0,
+        "repository": {
+          "id": 714929749,
+          "node_id": "R_kgDOKpz2VQ",
+          "name": "karing",
+          "full_name": "KaringX/karing",
+          "private": false,
+          "owner": {
+            "login": "KaringX",
+            "id": 131734194,
+            "node_id": "O_kgDOB9oasg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/131734194?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/KaringX",
+            "html_url": "https://github.com/KaringX",
+            "followers_url": "https://api.github.com/users/KaringX/followers",
+            "following_url": "https://api.github.com/users/KaringX/following{/other_user}",
+            "gists_url": "https://api.github.com/users/KaringX/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/KaringX/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/KaringX/subscriptions",
+            "organizations_url": "https://api.github.com/users/KaringX/orgs",
+            "repos_url": "https://api.github.com/users/KaringX/repos",
+            "events_url": "https://api.github.com/users/KaringX/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/KaringX/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/KaringX/karing",
+          "description": "Simple & Powerful proxy utility, Support routing rules for clash/sing-box",
+          "fork": false,
+          "url": "https://api.github.com/repos/KaringX/karing",
+          "forks_url": "https://api.github.com/repos/KaringX/karing/forks",
+          "keys_url": "https://api.github.com/repos/KaringX/karing/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/KaringX/karing/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/KaringX/karing/teams",
+          "hooks_url": "https://api.github.com/repos/KaringX/karing/hooks",
+          "issue_events_url": "https://api.github.com/repos/KaringX/karing/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/KaringX/karing/events",
+          "assignees_url": "https://api.github.com/repos/KaringX/karing/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/KaringX/karing/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/KaringX/karing/tags",
+          "blobs_url": "https://api.github.com/repos/KaringX/karing/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/KaringX/karing/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/KaringX/karing/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/KaringX/karing/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/KaringX/karing/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/KaringX/karing/languages",
+          "stargazers_url": "https://api.github.com/repos/KaringX/karing/stargazers",
+          "contributors_url": "https://api.github.com/repos/KaringX/karing/contributors",
+          "subscribers_url": "https://api.github.com/repos/KaringX/karing/subscribers",
+          "subscription_url": "https://api.github.com/repos/KaringX/karing/subscription",
+          "commits_url": "https://api.github.com/repos/KaringX/karing/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/KaringX/karing/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/KaringX/karing/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/KaringX/karing/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/KaringX/karing/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/KaringX/karing/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/KaringX/karing/merges",
+          "archive_url": "https://api.github.com/repos/KaringX/karing/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/KaringX/karing/downloads",
+          "issues_url": "https://api.github.com/repos/KaringX/karing/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/KaringX/karing/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/KaringX/karing/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/KaringX/karing/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/KaringX/karing/labels{/name}",
+          "releases_url": "https://api.github.com/repos/KaringX/karing/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/KaringX/karing/deployments"
+        },
+        "commit_url": "https://api.github.com/repos/KaringX/karing/commits/0c320dc182d095ec0d483f852169421e749c2bac",
+        "url": "https://api.github.com/repos/KaringX/karing/commits/0c320dc182d095ec0d483f852169421e749c2bac/status"
+      }
+    },
+    "core_exact_runs": {
+      "endpoint": "https://api.github.com/repos/KaringX/sing-box/actions/runs?head_sha=93f6a441a141cc4b5914a4c63dd97c77bc69281c&per_page=100",
+      "exit_code": 0,
+      "response": {
+        "total_count": 0,
+        "workflow_runs": []
+      }
+    },
+    "missing_dependency": {
+      "endpoint": "https://api.github.com/repos/KaringX/vpn-service",
+      "exit_code": 1,
+      "response": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+        "status": "404"
+      }
+    },
+    "missing_dependency_issue": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/issues/1528",
+      "exit_code": 0,
+      "response": {
+        "title": "Request for access to vpn-service repository for building locally",
+        "body": "Hi,\nI'm trying to build KaringX for few OSes that I am using from sources  but I'm blocked by a missing dependency.\nThe repository https://github.com/KaringX/vpn-service.git seems to be unavailable for about a year now according to `git log --follow -p -- pubspec.yaml`. \n\nCould you please grand read-only access so I can clone it and be able to build KaringX for myself?\n\nThanks in advance.",
+        "state": "closed",
+        "comments": 3,
+        "html_url": "https://github.com/KaringX/karing/issues/1528"
+      }
+    },
+    "missing_dependency_comments": {
+      "endpoint": "https://api.github.com/repos/KaringX/karing/issues/1528/comments",
+      "exit_code": 0,
+      "response": [
+        {
+          "body": "same problems",
+          "html_url": "https://github.com/KaringX/karing/issues/1528#issuecomment-4449168141",
+          "created_at": "2026-05-14T08:52:21Z",
+          "user": "xlinsz"
+        },
+        {
+          "body": "What's the solution? I see it has been closed but others left in dark",
+          "html_url": "https://github.com/KaringX/karing/issues/1528#issuecomment-4466536270",
+          "created_at": "2026-05-16T10:04:56Z",
+          "user": "FaFre"
+        },
+        {
+          "body": "no dice",
+          "html_url": "https://github.com/KaringX/karing/issues/1528#issuecomment-4646694015",
+          "created_at": "2026-06-08T08:17:34Z",
+          "user": "vigilancer"
+        }
+      ]
+    },
+    "core_artifacts": {
+      "endpoint": "https://api.github.com/repos/KaringX/sing-box/actions/artifacts?per_page=100",
+      "pagination": "all pages requested with gh api --paginate",
+      "total_count": 103,
+      "enumerated_count": 103,
+      "exact_sha_matches": [],
+      "artifact_names": [
+        "binary-apple-jailbreak",
+        "binary-darwin_amd64",
+        "binary-darwin_amd64-legacy-macos-10.13",
+        "binary-darwin_arm64",
+        "binary-linux_386_sse2",
+        "binary-linux_386_sse2-glibc",
+        "binary-linux_amd64-glibc",
+        "binary-linux_amd64-purego",
+        "binary-linux_arm64-glibc",
+        "binary-linux_arm64-purego",
+        "binary-linux_armv7",
+        "binary-linux_armv7-glibc",
+        "binary-linux_mipsle_hardfloat-glibc",
+        "binary-windows_386",
+        "binary-windows_amd64",
+        "binary-windows_arm64",
+        "libbox-android-386",
+        "libbox-android-amd64",
+        "libbox-android-arm",
+        "libbox-android-arm64",
+        "libbox-apple-ios-arm64",
+        "libbox-apple-macos-amd64",
+        "libbox-apple-macos-arm64"
+      ]
+    }
+  },
+  "conclusions": [
+    "No public application build workflow or downloadable Actions artifact was found in the scanned app history and observed GitHub API responses.",
+    "The only observed app workflow/run was dynamic Copilot code review, not a release build.",
+    "The release has ten uploaded platform binaries; each records uploader GooRingX. GitHub automatic source archives represent the same incomplete public tag, not separate unpublished source.",
+    "Public sing-box workflows and native binary artifacts exist, but no run or retained artifact matches the core source SHA embedded in this release. The Linux binary job reads release/DEFAULT_BUILD_TAGS* files, which do not enable with_karing required for the app-specific run2 service. Mobile libbox build helpers do add with_karing, but those are native mobile artifacts, not missing Dart package source.",
+    "The missing vpn-service repository returned HTTP404 under current access. This does not distinguish a private repository from a deleted or renamed one.",
+    "Issue1528 and its current comments provide no dependency source archive or CI download URL."
+  ],
+  "unknowns": [
+    "Whether private CI, another external CI system, or local maintainer machines built the signed release.",
+    "Whether deleted/expired workflow runs, private artifacts, or private repositories retain original missing source.",
+    "Release uploader identity and platform signatures do not establish the build environment or source completeness."
+  ],
+  "usable_sources": {
+    "app_historical_wrapper": "https://github.com/KaringX/karing/tree/e3c19f1eb1225dbd48a4862f0983b82d0af8de69",
+    "exact_core_source": "https://github.com/KaringX/sing-box/tree/93f6a441a141cc4b5914a4c63dd97c77bc69281c",
+    "release_artifacts": "https://github.com/KaringX/karing/releases/tag/v1.2.25.2802"
+  },
+  "core_workflow_sources": {
+    "workflow": "https://github.com/KaringX/sing-box/blob/93f6a441a141cc4b5914a4c63dd97c77bc69281c/.github/workflows/build.yml",
+    "binary_tags": "https://github.com/KaringX/sing-box/blob/93f6a441a141cc4b5914a4c63dd97c77bc69281c/release/DEFAULT_BUILD_TAGS",
+    "mobile_libbox_builder": "https://github.com/KaringX/sing-box/blob/93f6a441a141cc4b5914a4c63dd97c77bc69281c/cmd/internal/build_libbox/main.go"
+  }
+}

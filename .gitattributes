@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Recovery artifacts preserve the original source and unified-diff whitespace.
+overlay/** -whitespace
+patches/*.patch -whitespace

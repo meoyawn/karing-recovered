@@ -1,0 +1,65 @@
+{
+  "target_release": "https://github.com/KaringX/karing/releases/tag/v1.2.25.2802",
+  "reference_artifact": {
+    "path": ".dart_tool/reconstruction/release/opt/karing/karingService",
+    "sha256": "ec54bd16659ec7000847503332cc97bab062c939c9db38a2a7387507cb06f71d",
+    "bytes": 57837720,
+    "format": "ELF64 x86-64",
+    "language": "Go",
+    "compiler_metadata": "go1.26.6",
+    "main_package": "github.com/sagernet/sing-box/cmd/sing-box",
+    "module_version": "v1.13.0-beta.7.0.20260910010848-93f6a441a141+dirty",
+    "revision": "93f6a441a141cc4b5914a4c63dd97c77bc69281c",
+    "has_uncommitted_changes": true,
+    "rea_evidence_id": "ev_921e9858d6b975a962bb880bc98e4cc96da2222c6f6b457a5befa479c953138e",
+    "rea_evidence_path": ".dart_tool/reconstruction/core-go-evidence.json"
+  },
+  "recovered_source": {
+    "repository": "https://github.com/KaringX/sing-box.git",
+    "revision": "93f6a441a141cc4b5914a4c63dd97c77bc69281c",
+    "directory": ".dart_tool/reconstruction/sing-box",
+    "license": "GPL-3.0-or-later",
+    "build_script": "native/linux-core/build.sh",
+    "output_directory": "bind/linux/core",
+    "build_tags": "with_karing,with_acme,with_quic,with_dhcp,with_shadowsocksr,with_wireguard,with_grpc,with_gvisor,with_utls,with_clash_api,with_conntrack,with_tailscale,with_naive_outbound,with_purego"
+  },
+  "runtime_dependency": {
+    "module": "github.com/sagernet/cronet-go/lib/linux_amd64",
+    "version": "v0.0.0-20260807161529-8d42107dcdfc",
+    "artifact": "libcronet.so",
+    "source_repository": "https://github.com/SagerNet/cronet-go",
+    "delivery": "Pinned upstream Go module runtime artifact; not reconstructed from Karing binaries",
+    "path": "bind/linux/core/libcronet.so",
+    "sha256": "9d43c2ee2410a54262e394c09da14b402e872d919ea66280c6b1f54414ab5f6a",
+    "bytes": 11914984
+  },
+  "observations": [
+    "REA inspected embedded build metadata without executing the reference binary.",
+    "The public repository contains the exact embedded Git revision and Karing-specific run2 service and HTTP API sources.",
+    "The sibling workspace sing-box repository was inspected read-only and was not used or modified.",
+    "The rebuilt runtime dependency libcronet.so has the same SHA-256 as the shipped release library: 9d43c2ee2410a54262e394c09da14b402e872d919ea66280c6b1f54414ab5f6a."
+  ],
+  "limitations": [
+    "Embedded metadata does not independently authenticate the compiler or source repository.",
+    "The shipped artifact declares a dirty source checkout; those uncommitted changes are unavailable.",
+    "The reconstruction builds the recorded clean public revision with a distinct version string; it does not claim a byte-identical release build.",
+    "The Cronet shared library is a normal prebuilt upstream native dependency, not recovered source."
+  ],
+  "rebuilt_artifact": {
+    "path": "bind/linux/core/karingService",
+    "sha256": "7007b3f4c5286570d175ac232003e9aca4c9e93af976268bf16da539a08a0d1a",
+    "bytes": 56923984
+  },
+  "validation": {
+    "source_build": "native/linux-core/build.sh succeeded with the recorded Go1.26.6 toolchain and full feature tags",
+    "version_command": "Reports revision93f6a441a141cc4b5914a4c63dd97c77bc69281c and Go1.26.6",
+    "adapter_runtime": ".dart_tool/reconstruction/vpn-adapter-source-core-smoke.log",
+    "adapter_runtime_result": "Real adapter launch/readiness, HTTP forwarding over mixed proxy, traffic JSON, reload and stop succeeded",
+    "schema_migration": "lib/app/utils/singbox_config_migration.dart",
+    "schema_validation": "Independent legacy fixture rejected by core before migration (exit1); migrated fixture accepted (exit0)",
+    "schema_fixtures": ".dart_tool/reconstruction/config-migration-probe/",
+    "actual_builder_config": "Flutter app SingboxConfigBuilder default Linux configuration without TUN accepted by the source-built core check (exit0)",
+    "actual_builder_config_path": ".dart_tool/reconstruction/builder-smoke/core.json",
+    "actual_builder_log": ".dart_tool/reconstruction/builder-smoke-test.log"
+  }
+}

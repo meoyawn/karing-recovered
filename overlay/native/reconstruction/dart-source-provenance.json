@@ -1,0 +1,443 @@
+{
+  "target_tag": "v1.2.25.2802",
+  "target_commit": "0c320dc1",
+  "observed_legacy_source": {
+    "git_commit": "e3c19f1eb1225dbd48a4862f0983b82d0af8de69",
+    "deleted_in": "3c00ed6480b10eb3a9e7b702669dd917a4c9c65e",
+    "files": [
+      {
+        "path": "lib/app/utils/analytics_utils.dart",
+        "legacy_sha256": "d835c5de92a4bc08a94cb871406869d2213ddb68b6c8b66e5df01e6d0b70f759",
+        "current_sha256": "296ea72989f13cb4b521030b9f73d16e22c3959fe26116200ac0f6c406bc116d",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/app_args.dart",
+        "legacy_sha256": "4735ae3abaa346ffada98636bb75d38385347668ee9f73ee90375308308d964b",
+        "current_sha256": "4735ae3abaa346ffada98636bb75d38385347668ee9f73ee90375308308d964b",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/app_lifecycle_state_notify.dart",
+        "legacy_sha256": "9cca75a3747f0d6c221d53d9cf0d3f7cbcae8789a481abae002b9ca39dd1d7bf",
+        "current_sha256": "5cee2f8bbf0afc8ac591a60157fc4b849fd1ba982a39b34aa89e158b13f48599",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/app_registry_utils.dart",
+        "legacy_sha256": "b7068e795d0e1df57d19410bc7bfaffcbc56ff7ecba8ca4a72805f17515cc069",
+        "current_sha256": "ceb8b64248fcf0bbc8be0ecc476820b21c578c9f6f402ed0fe0043f7f475a673",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/app_scheme_actions.dart",
+        "legacy_sha256": "424117ac4250eb6e8b1368fc828cbcbff9f91a786a346cea230c741bce301090",
+        "current_sha256": "424117ac4250eb6e8b1368fc828cbcbff9f91a786a346cea230c741bce301090",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/app_url_utils.dart",
+        "legacy_sha256": "4df06c554a216d04fa062e0ad1074c0e3b2cb4e64f340ec8502c5be73e7cf5e6",
+        "current_sha256": "b56d22d464ba8df59c80f44909801f0c2898258b8cf6b62a2654422ebb5f8975",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/app_utils.dart",
+        "legacy_sha256": "c1081481524b950f63e3b41e95f0f6e1cec88f9a1ab08db488d4d89245cfc693",
+        "current_sha256": "ec37c1ce61e5fc1beea9f43e025dd871812adf3e49ba7c8b5d4b801904b414a0",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/apple_utils.dart",
+        "legacy_sha256": "68643df8e608a526f35e3c54203f1124336dbf5cdbe14420cff0a9701277a2c2",
+        "current_sha256": "231b721cef47dc40ec283da43069359742ddfe9e559fd959e45bf5731495e733",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/assets_utils.dart",
+        "legacy_sha256": "537c59b989afe7a1c96a6d5f8686cdcaa08be32897596af8e78123120feb579e",
+        "current_sha256": "6f59499a89d351b1146679783822b2294d509baa0414cf731a0046ba315cd548",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/auto_conf_utils.dart",
+        "legacy_sha256": "805f2e8587fd5dbc5111a4f3a1e5a30fa7e41f2a1b100868b27da0a3e90ac0d4",
+        "current_sha256": "7efc0c18041ad9fddb3bbcf7e6bc1dec394bc8cc477299749587044bae6ce096",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/backup_and_sync_utils.dart",
+        "legacy_sha256": "9d1ef6e3fc602c8006f25ff9054393a7929c8a7cea7d7e1a4a9dcc4f9a10c541",
+        "current_sha256": "5b8b5a9b0b62df15758139db0758b31f103259f6fc7bbbbb6e0f83905cf4a60d",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/chain_comparator.dart",
+        "legacy_sha256": "f410d2a53a5dc60665eb586a524904704a8e2cc3a96ddaed43a8a78a0d07d30d",
+        "current_sha256": "a9ec343689d85ed74a6b329c9e44694b42bf81023ed75f220fc8a9682a505055",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/clash_api.dart",
+        "legacy_sha256": "66ec1537913727eb25d80f2b9902af7fece7e78745fbb92a524ad61bb7f9066f",
+        "current_sha256": "1188284f68a239b605b69bb0962af271acb9866c242866dba025a9a7e61a7ff8",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/clash_to_singbox.dart",
+        "legacy_sha256": "6e1efc96957c9d6676112afcd889b28c7ef3ff9166be5fec05ca94ad898f35ac",
+        "current_sha256": "ab8f1d7180713570f0aa7644ef50f7fca182ff57c18bc341a9f49d831e27baab",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/clash_yaml.dart",
+        "legacy_sha256": "fbad776f4ccc4e7827899a269ec2d9b54bcc3cd0625e80eea3277997eafe6112",
+        "current_sha256": "edb84b69d94970377f1fe709b6096b1db6603106fb04e52708af308ebc4f0750",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/clash_yaml_utils.dart",
+        "legacy_sha256": "24e95c27d8c92c6797ae0e32358e49621e40b86ac12548b55d6daf3276eda896",
+        "current_sha256": "00d1fb6b92f76dac672d69e5d2d1c8a1ab0e27408e9545f46f0fd07e70ffde2e",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/cloudflare_warp_api.dart",
+        "legacy_sha256": "faf1ea7ef617f27b5b2e35a5447ec7faaf9a1964c0fb8cc2851262c0006e3b03",
+        "current_sha256": "a98c86a1134ac2be3eea914b958dd2aec077272baca00671e4bd82d2a7a31852",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/cloudflare_warp_utils.dart",
+        "legacy_sha256": "a61cf0ac8697ce46bc13942356c9f1cb68149c5602977e759eba44514952637c",
+        "current_sha256": "3b295ae6fc5dda2eba86dff5585b8670983745bd72c30a41eb822dc053433845",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/conf_parser.dart",
+        "legacy_sha256": "945f74f0414bff3516f0df81f04a575f04e533400440573a2493d8112169400c",
+        "current_sha256": "945f74f0414bff3516f0df81f04a575f04e533400440573a2493d8112169400c",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/convert_utils.dart",
+        "legacy_sha256": "44e43a77bdaf2ff07c5c5ff0f02444eb12dd386d160a333ef585e7d072f99a7f",
+        "current_sha256": "ca6862c91620fd644af10255a7327f78979b245a1b6da43adbcda65ae4aafd70",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/date_time_utils.dart",
+        "legacy_sha256": "d92de1da35aceeae5552864ec3908d49bba5edef4613c6f8656897df50e55bb6",
+        "current_sha256": "d92de1da35aceeae5552864ec3908d49bba5edef4613c6f8656897df50e55bb6",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/deep_copy_utils.dart",
+        "legacy_sha256": "5019e16c79f919d262bad7e860f0b56aa1c478043ab55441c31473d28d0f0ca8",
+        "current_sha256": "5019e16c79f919d262bad7e860f0b56aa1c478043ab55441c31473d28d0f0ca8",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/device_info.dart",
+        "legacy_sha256": "94a32a2d8d0cf65680b94180d0dd1d313db0f844ca907e24b33cc3a45baa1c53",
+        "current_sha256": "94a32a2d8d0cf65680b94180d0dd1d313db0f844ca907e24b33cc3a45baa1c53",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/did.dart",
+        "legacy_sha256": "88584e59ccbd36abf376e449977edbcc6f22dff0576b2148206a5dd30c3b747a",
+        "current_sha256": "88584e59ccbd36abf376e449977edbcc6f22dff0576b2148206a5dd30c3b747a",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/diversion_custom_utils.dart",
+        "legacy_sha256": "048eda265fd71b232ef0ef911d012315a58a3afdec52f4580c92b99dc2038663",
+        "current_sha256": "8ad5ececfe9556b83b05fd257d8e70e8d827946d01e0fe832223a4f91d81f08a",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/download_utils.dart",
+        "legacy_sha256": "9b25948518ad5d110fe08d3c9f70de33fc8cce42d57a93e2914aa5d9dad50992",
+        "current_sha256": "c38dae4429b13d368069334474f67ba1444b28a686a2d8a5f991a56a306ad0f9",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/emoji_utils.dart",
+        "legacy_sha256": "423f96fcd082d273dbea1a4bd1fc7c18fd8cadda96b63cccbf908ab77e8e12a4",
+        "current_sha256": "1fae5c3e03a5b741768e0f79af6d2a20ad8ffd53a6a9ce4ffae17f52af5e46ce",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/error_reporter_utils.dart",
+        "legacy_sha256": "cb2ae0f67f0031e6e1d7315d65597694951d21f53f1e99e355a5eb099c088054",
+        "current_sha256": "cb2ae0f67f0031e6e1d7315d65597694951d21f53f1e99e355a5eb099c088054",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/file_utils.dart",
+        "legacy_sha256": "58a15e916d64e872f23eeb978c5de3f92e2dd186abb6f33616b8c11b628fe421",
+        "current_sha256": "143858b960b749680acea41f817f253a53c89029bf361928c6b22e39aa4583a3",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/geoip_subnet_utils.dart",
+        "legacy_sha256": "cc60a81124e39024fed759ce4707610ae6d6ea5586c2268712613719c6d7f4b1",
+        "current_sha256": "c763bfba511095aaa7bc25221870c6c17e342b8ff832a5e2842fa7e51f570d5a",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/http_utils.dart",
+        "legacy_sha256": "d3e75c828e353fda856e311abe568e31e4a96def465e18f1b2613436244cfe73",
+        "current_sha256": "36d2d421685194075ed7f14e2dcc0656632f78ec0ab369319b239caaa77db572",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/icloud_utils.dart",
+        "legacy_sha256": "f498c1600e9734ae878974d2aa0a8a393e1590749bbf4f99fba802eb8b54115d",
+        "current_sha256": "eb169cdc41f61a859490a0d78bb8c431f666b95930cc45ec40dbe9294b4b234e",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/install_referrer_utils.dart",
+        "legacy_sha256": "39d88c08e50cd25561b203ccde7841e4d4ebfe3ae3dadc0981c0f7efbd8bee15",
+        "current_sha256": "762407c43df7063b6e566c839f06bffc79d0b7200ee948a480be18d916722eb5",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/karing_utils.dart",
+        "legacy_sha256": "9199c9d6d7acd1651fc46ebd0d133ed72b793be9cbdc6602c6b40cc13144ef67",
+        "current_sha256": "4d16bdadb43a38ff0fa287da4ad587806a045a9ad2d6e30f32a39d7860cffb34",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/local_notifications_utils.dart",
+        "legacy_sha256": "01b4e9e3258fab9800a20a3188e9f46900506475c2b4a1f61245a1423a692f41",
+        "current_sha256": "7ac2cb8e71b965ae2b5dac7428c7497443bcb2ed59fa7e770dfbd0bf1e0913db",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/local_storage.dart",
+        "legacy_sha256": "59528e51d4a01d73c73bc4240f39217342ed3a21df7f30be88ac2eb959f54eab",
+        "current_sha256": "59528e51d4a01d73c73bc4240f39217342ed3a21df7f30be88ac2eb959f54eab",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/log.dart",
+        "legacy_sha256": "2d9b32487e6070da2e2057794d522bb3b7aca5d924bb72e6be80ad4a3932ec4d",
+        "current_sha256": "07c20fc6794b800d82e9552b519cc810503eb67a723cc81332ca1fe5ecce8047",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/main_channel_utils.dart",
+        "legacy_sha256": "5d0ca7137a7e85b5c62b27f3185ee4dbfdfe1c21a8923397705b7b764864aa9a",
+        "current_sha256": "5d0ca7137a7e85b5c62b27f3185ee4dbfdfe1c21a8923397705b7b764864aa9a",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/network_utils.dart",
+        "legacy_sha256": "0f1b8a05e88909602b4d61731469f019fb0dcbe3b95ed322124201e361790054",
+        "current_sha256": "40b9071b59b469df191fa94d9c2bcc2fc06f27214a8386f5d39ea8cb47a79eed",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/parallel_task_queue.dart",
+        "legacy_sha256": "4ceb27b680ef4a08e6c51ebbbe327a3e54e0913df6171f875e993c63450baa7b",
+        "current_sha256": "2a1c7ecd967f1fb5472ee44b0c90950a9d1e335caf87bbe007d9663ad9d44cd2",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/path_utils.dart",
+        "legacy_sha256": "ea475d7aa6900f22c3c768959b6a02b2fe553dec58b10c54d2e1dc85bad8768d",
+        "current_sha256": "176611ed1d1ba10cdef6df2fbd29d9da660ca41aa21e036e39db7953e3b8245c",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/platform_utils.dart",
+        "legacy_sha256": "b8f6fe9d7f10c5786811fcac733e8ec44364eaafec9776668061d7cae1ca0e13",
+        "current_sha256": "9ee6cde503effea737094c0eb316b5a953b6446560e4ca0bc992b0d535b4d348",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/proxy_conf_utils.dart",
+        "legacy_sha256": "59476df8034dc346e7c451a0838e06223d5423f460292a4b7d7b502cad299cb4",
+        "current_sha256": "2b183a3104e2f1b6457f622cc8436a01035262d35c0a43c814643e78a51bae35",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/qrcode_utils.dart",
+        "legacy_sha256": "2b4993850e92a37ee0ca386025dbc8921859aa45b19403dbf96aa0dab32dcc77",
+        "current_sha256": "98bc169c1aa937d99d233ebc6cacbf661596dbe9128d5065e7f8bdc3d12d28f0",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/ruleset_codes_utils.dart",
+        "legacy_sha256": "c3a8b11fa4dab926657487c6b6d237e082944e2aba722b2f205a40d1cbba5d7a",
+        "current_sha256": "c3a8b11fa4dab926657487c6b6d237e082944e2aba722b2f205a40d1cbba5d7a",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/secure_storage.dart",
+        "legacy_sha256": "a78397f6e74c76cfb92d80b3b23a17d22d620748531e663cb901b292731702fb",
+        "current_sha256": "66e5d5b90e83f567f42c54b294ddcecce28d74d19bc5268d989bd626f553b796",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/secure_storage_utils.dart",
+        "legacy_sha256": "23c63e7659e8f77d45ed3af6dd15f685d6c3e7c3e5e00c7085d9b2fa540bf457",
+        "current_sha256": "55a0909a3d1ee52dfc21567658761507fd49d5387b2fa7929c4373610a125069",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/sentry_utils.dart",
+        "legacy_sha256": "a4c84fb1226a29d3f09d2f90b51e8a5d8ba9664151b4db3a472352b44fa1325d",
+        "current_sha256": "3bdc6da7c4816fb5c6759a7c324d39910512ed33380c93775d38a063fc3ba0c2",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/singbox_config_builder.dart",
+        "legacy_sha256": "63849671a8887d15334136d1893d8fdf6fd263cf7bdc6d7e6a87cd3794c82e8b",
+        "current_sha256": "8e585d50c46e4e01c777a057a5d58e931b9542b26acb407e98fe6269d11f1552",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/singbox_json.dart",
+        "legacy_sha256": "658f76641fbd1db69f1e349e36da1d0735fac41863b440625808d27ceaa8075b",
+        "current_sha256": "57e5973d37d17fd2ae6da1dafaaa539d44c2545dc515547ab640ba5211fbc6c6",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/singbox_json_utils.dart",
+        "legacy_sha256": "eaefec4de2bf5eecde9b6bcb4665defbddf0f685520fb861c2654619a4ac0dd4",
+        "current_sha256": "4ddb81dac2788966b293aac7ffa40a9dd53bdacb7f798a46b6e5267a41791286",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/ss_json_utils.dart",
+        "legacy_sha256": "8030bb6b364aa8cb94f255ccde2e13052d96c9de80dfbd007a43af04d5f52429",
+        "current_sha256": "01696dea1dcb94023815987b376273803e1b7ea3b184a05f0281baad5f09ee32",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/stacktrace_utils.dart",
+        "legacy_sha256": "723150268c641f50ba45028258a3d601e8e9513ac65d3837da20da753cc652bb",
+        "current_sha256": "723150268c641f50ba45028258a3d601e8e9513ac65d3837da20da753cc652bb",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/system_scheme_utils.dart",
+        "legacy_sha256": "17917b2e1838948173d72a4c5b3a66ab451059aec08148391e103c437ec3e63c",
+        "current_sha256": "17917b2e1838948173d72a4c5b3a66ab451059aec08148391e103c437ec3e63c",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/tag_gen.dart",
+        "legacy_sha256": "121f94fd783b1cccc5f17fbdab0f2a645e4284151a3647255f1cba51948a299d",
+        "current_sha256": "121f94fd783b1cccc5f17fbdab0f2a645e4284151a3647255f1cba51948a299d",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/uri_utils.dart",
+        "legacy_sha256": "c705676d1e4d072e7d2a6a6e244eec2d2e07920066674121569a1fb84aec0d8c",
+        "current_sha256": "c705676d1e4d072e7d2a6a6e244eec2d2e07920066674121569a1fb84aec0d8c",
+        "identical": true
+      },
+      {
+        "path": "lib/app/utils/url_launcher_utils.dart",
+        "legacy_sha256": "120a97c4139c5ce4ad92f8ff887e957421e846eb07d88c4ef73e755bc97b626a",
+        "current_sha256": "d601c9dac9adae52d28a0c45661b28fc74be08081aa0f0d5d5c0b7238bc5bbd7",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/uwp_utils.dart",
+        "legacy_sha256": "8bb12dd30d58cdc63fbe12955f0faff490aca434b01cc5338d962cdd945bab90",
+        "current_sha256": "b49a1f1f18b3950a7f37a7df938fbbb09da66f094037049b8aef0d63dba6ff21",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/v2ray_txt_utils.dart",
+        "legacy_sha256": "6459175f7c88b8e7f336047ca62a0ea85a3520d09fe300538f6ee784af78a86f",
+        "current_sha256": "40c76e8e0dbcc0394b94a00de2607043ced045977bd3a43d2ea6576ed1eb8d2b",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/version_compare_utils.dart",
+        "legacy_sha256": "f0bdcad067cc6ca256ebd272bf40bd25af0376365ecbd7d8aee64768ecaad51d",
+        "current_sha256": "71c728dd9d23dcac454cc086dc04068c99b7ab9c07d7f4328fe63384201cba72",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/webdav_utils.dart",
+        "legacy_sha256": "05377add484d91d091e3dc6c1e9b8f422d4841b67ecafec651e5dfc6365a37ca",
+        "current_sha256": "ae65e590117fb7c5a3590b2b00bf195335f8f82d27555db7583dd7a8ffd9154f",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/websocket.dart",
+        "legacy_sha256": "3e95a7d38a48fb4f1a6cecb9d584ff81463974486b7ceab5156c4eda48f0fbeb",
+        "current_sha256": "cf810de895542daf5c24afc873c119cdfcc7bc6fffeb1bccf301a880037931e0",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/windows_tun_fix_utils.dart",
+        "legacy_sha256": "42ef2f6986508eb0c712af0ea7996b54bf217117314da59abd49e8a52dfd0c22",
+        "current_sha256": "17392612889708ac1776b0e479fcc3b3ee34a6d0918f9f643269160cf74af8de",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/windows_version_helper.dart",
+        "legacy_sha256": "2d8d0b011c8a881dcb17b999f2362376d226bb8c88170c19625bb27b2d51b327",
+        "current_sha256": "dcb6e7a1df3853f8eac6c998a0cbdda18f7c177976082e87be9ccfa016a8dfed",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/wireguard_conf_utils.dart",
+        "legacy_sha256": "59c6668cafc9e3908199eef48112838b5f30e5510819d0721927251d8e65696d",
+        "current_sha256": "0819c340e189dbf4b034fb0ee42c051dc58fafaa1f68a2e4ca29b434bf27ab87",
+        "identical": false
+      },
+      {
+        "path": "lib/app/utils/zip_utils.dart",
+        "legacy_sha256": "986aadb96470be96c1c66a6f8cbbd622181283c244b73c1b80739c0f189d225e",
+        "current_sha256": "a4589f3d518e30ebcc75db03cc63426601db61f254c3d93669621250a4c22c33",
+        "identical": false
+      }
+    ]
+  },
+  "observed_shipped_binary": {
+    "path": ".dart_tool/reconstruction/release/opt/karing/lib/libapp.so",
+    "sha256": "312990d377b6dda47568378e4285d9ca780e7570b3c72eda052400ed748b1516",
+    "language": "Dart AOT FullAOT",
+    "rea_evidence_id": "ev_256d1db405969ef1211b33ed62043cf5871288ea50845cd30e34410357f8f8db",
+    "coverage": "Package/class/string evidence only; original source not decompiled."
+  },
+  "reconstructed_files": [
+    "lib/app/private/app_url_utils_private.dart",
+    "lib/app/private/sentry_utils_private.dart",
+    "lib/app/utils/accessibility_utils.dart",
+    "lib/app/utils/auto_update_utils.dart",
+    "lib/app/utils/crypto_utils.dart",
+    "lib/app/utils/device_utils.dart",
+    "lib/app/utils/http_overrides_utils.dart",
+    "lib/app/utils/move_to_background_utils.dart",
+    "lib/app/utils/notice_utils.dart",
+    "lib/app/utils/package_manager_android.dart",
+    "lib/app/utils/singbox_config_migration.dart",
+    "lib/app/utils/singbox_dns.dart",
+    "lib/app/utils/singbox_outbound.dart",
+    "lib/app/utils/system_utils.dart",
+    "lib/app/utils/vpn_action_handler.dart",
+    "lib/app/utils/webdav_client_utils.dart",
+    "lib/screens/statistics_records_screen.dart"
+  ],
+  "reconstruction_method": "Recover public historical Dart sources, reconcile required current source call contracts through analyzer, implement new small helpers using current package source contracts, migrate serialization against exact Go option source.",
+  "known_differences": [
+    "SentryUtilsPrivate.init is intentionally disabled: no private crash reporting configuration is reconstructed.",
+    "Private upstream query signatures cannot be recovered from public source/string inspection; only ordinary version/query fields are retained.",
+    "Private provider-code lookup/integration notice/push API endpoints/signatures unavailable; BoardProviderPrivate methods throw a clear UnsupportedError. Subscription URL/file imports remain available.",
+    "StatisticsRecordsScreen is a reconstructed read-only table of the latest 500 database records with refresh. Release charts, grouping, and advanced filtering are not reconstructed.",
+    "New protocol editors anytls/mieru/naive preserve raw fields and offer basic server editing; original detailed editors are not reconstructed.",
+    "HttpOverridesUtils.install does not alter runtime HTTP overrides; inherited unconditional TLS certificate bypass was removed.",
+    "Subscription decryptPassword is persisted but its upstream encrypted-subscription decoding is not reconstructed."
+  ],
+  "validation": "Dart analyzer: all compile errors from initial223-error pass addressed; central parent owns final analysis/build. Actual app builder default Linux no-TUN config passes rebuilt native core check via temporary Flutter harness; see builder-smoke-test.log and builder-smoke/core.json."
+}

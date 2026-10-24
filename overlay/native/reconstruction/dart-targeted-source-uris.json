@@ -1,0 +1,1327 @@
+{
+  "path": ".dart_tool/reconstruction/release/opt/karing/lib/libapp.so",
+  "sha256": "312990d377b6dda47568378e4285d9ca780e7570b3c72eda052400ed748b1516",
+  "method": "Targeted raw-byte source-URI string search; not Dart object deserialization or recovered source",
+  "records": [
+    {
+      "uri": "package:karing/app/extension/datetime.dart",
+      "file_offsets": [
+        6970912
+      ]
+    },
+    {
+      "uri": "package:karing/app/extension/duration.dart",
+      "file_offsets": [
+        6375408
+      ]
+    },
+    {
+      "uri": "package:karing/app/local_services/vpn_service.dart",
+      "file_offsets": [
+        5741872
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/auto_update_manager.dart",
+      "file_offsets": [
+        7836496
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/biz.dart",
+      "file_offsets": [
+        4985088
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/board_provider_manager.dart",
+      "file_offsets": [
+        4998576
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/board_provider_notice_manager.dart",
+      "file_offsets": [
+        7983328
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/notice_manager.dart",
+      "file_offsets": [
+        5571712
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/proxy_cluster.dart",
+      "file_offsets": [
+        5828720
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/remote_config.dart",
+      "file_offsets": [
+        6353136
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/remote_config_manager.dart",
+      "file_offsets": [
+        8525264
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/remote_isp_config.dart",
+      "file_offsets": [
+        5725920
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/remote_isp_config_manager.dart",
+      "file_offsets": [
+        7598496
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/server_manager.dart",
+      "file_offsets": [
+        7992608
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/setting_manager.dart",
+      "file_offsets": [
+        7470288
+      ]
+    },
+    {
+      "uri": "package:karing/app/modules/zashboard.dart",
+      "file_offsets": [
+        6974256
+      ]
+    },
+    {
+      "uri": "package:karing/app/private/app_url_utils_halfkey_private.dart",
+      "file_offsets": [
+        8427888
+      ]
+    },
+    {
+      "uri": "package:karing/app/private/app_url_utils_private.dart",
+      "file_offsets": [
+        5363248
+      ]
+    },
+    {
+      "uri": "package:karing/app/private/sentry_utils_private.dart",
+      "file_offsets": [
+        5204016
+      ]
+    },
+    {
+      "uri": "package:karing/app/runtime/return_result.dart",
+      "file_offsets": [
+        6178848
+      ]
+    },
+    {
+      "uri": "package:karing/app/runtime/type_checker.dart",
+      "file_offsets": [
+        5798752
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/accessibility_utils.dart",
+      "file_offsets": [
+        6661472
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/app_lifecycle_state_notify.dart",
+      "file_offsets": [
+        7268832
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/app_url_utils.dart",
+      "file_offsets": [
+        5729792
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/app_utils.dart",
+      "file_offsets": [
+        6016000
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/assets_utils.dart",
+      "file_offsets": [
+        5358640
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/auto_conf_utils.dart",
+      "file_offsets": [
+        6176448
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/auto_update_utils.dart",
+      "file_offsets": [
+        7347168
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/backup_and_sync_utils.dart",
+      "file_offsets": [
+        7011216
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/clash_api.dart",
+      "file_offsets": [
+        6022944
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/clash_to_singbox.dart",
+      "file_offsets": [
+        8008992
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/clash_yaml.dart",
+      "file_offsets": [
+        6861008
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/clash_yaml_utils.dart",
+      "file_offsets": [
+        5137008
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/cloudflare_warp_api.dart",
+      "file_offsets": [
+        8137440
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/cloudflare_warp_utils.dart",
+      "file_offsets": [
+        7964736
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/conf_parser.dart",
+      "file_offsets": [
+        5979088
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/convert_utils.dart",
+      "file_offsets": [
+        6364096
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/crypto_utils.dart",
+      "file_offsets": [
+        6335376
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/date_time_utils.dart",
+      "file_offsets": [
+        8247472
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/deep_copy_utils.dart",
+      "file_offsets": [
+        6774464
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/device_utils.dart",
+      "file_offsets": [
+        7216672
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/did.dart",
+      "file_offsets": [
+        7231872
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/diversion_custom_utils.dart",
+      "file_offsets": [
+        6887952
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/download_utils.dart",
+      "file_offsets": [
+        7426560
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/emoji_utils.dart",
+      "file_offsets": [
+        7172288
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/error_reporter_utils.dart",
+      "file_offsets": [
+        5369616
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/file_utils.dart",
+      "file_offsets": [
+        6064608
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/geoip_subnet_utils.dart",
+      "file_offsets": [
+        7757664
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/http_overrides_utils.dart",
+      "file_offsets": [
+        4995312
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/http_utils.dart",
+      "file_offsets": [
+        7306544
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/hwid_utils.dart",
+      "file_offsets": [
+        8063104
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/install_date_utils.dart",
+      "file_offsets": [
+        5658048
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/install_referrer_utils.dart",
+      "file_offsets": [
+        8583696
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/karing_utils.dart",
+      "file_offsets": [
+        8265216
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/local_storage.dart",
+      "file_offsets": [
+        6853600
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/log.dart",
+      "file_offsets": [
+        7904096
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/move_to_background_utils.dart",
+      "file_offsets": [
+        6712576
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/network_utils.dart",
+      "file_offsets": [
+        5153264
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/notice_utils.dart",
+      "file_offsets": [
+        7201552
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/package_manager_android.dart",
+      "file_offsets": [
+        6352224
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/parallel_task_queue.dart",
+      "file_offsets": [
+        8001968
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/path_utils.dart",
+      "file_offsets": [
+        7348784
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/profile_decrypt_utils.dart",
+      "file_offsets": [
+        8636160
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/proxy_conf_utils.dart",
+      "file_offsets": [
+        7220048
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/qrcode_utils.dart",
+      "file_offsets": [
+        5879376
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/ruleset_codes_utils.dart",
+      "file_offsets": [
+        5745472
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/secure_storage.dart",
+      "file_offsets": [
+        5984000
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/secure_storage_utils.dart",
+      "file_offsets": [
+        7250608
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/sentry_utils.dart",
+      "file_offsets": [
+        5376960
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/singbox_config_builder.dart",
+      "file_offsets": [
+        7103184
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/singbox_dns.dart",
+      "file_offsets": [
+        8214368
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/singbox_json_utils.dart",
+      "file_offsets": [
+        5755344
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/singbox_outbound.dart",
+      "file_offsets": [
+        8905232
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/ss_json_utils.dart",
+      "file_offsets": [
+        7393312
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/stacktrace_utils.dart",
+      "file_offsets": [
+        5892768
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/system_scheme_utils.dart",
+      "file_offsets": [
+        5280400
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/system_utils.dart",
+      "file_offsets": [
+        8485568
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/tag_gen.dart",
+      "file_offsets": [
+        6827152
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/uri_utils.dart",
+      "file_offsets": [
+        7791392
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/url_launcher_utils.dart",
+      "file_offsets": [
+        5449440
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/v2ray_txt_utils.dart",
+      "file_offsets": [
+        5791680
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/version_compare_utils.dart",
+      "file_offsets": [
+        7028624
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/webdav_client_utils.dart",
+      "file_offsets": [
+        7530080
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/websocket.dart",
+      "file_offsets": [
+        6465824
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/wireguard_conf_utils.dart",
+      "file_offsets": [
+        5703328
+      ]
+    },
+    {
+      "uri": "package:karing/app/utils/zip_utils.dart",
+      "file_offsets": [
+        6595856
+      ]
+    },
+    {
+      "uri": "package:karing/generated/build_time.dart",
+      "file_offsets": [
+        7240736
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings.g.dart",
+      "file_offsets": [
+        5443184
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_ar.g.dart",
+      "file_offsets": [
+        5123728
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_bn.g.dart",
+      "file_offsets": [
+        5443536
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_da.g.dart",
+      "file_offsets": [
+        8114304
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_de.g.dart",
+      "file_offsets": [
+        5792224
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_el.g.dart",
+      "file_offsets": [
+        7916688
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_en.g.dart",
+      "file_offsets": [
+        5662928
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_es.g.dart",
+      "file_offsets": [
+        6706848
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_fa.g.dart",
+      "file_offsets": [
+        6305264
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_fr.g.dart",
+      "file_offsets": [
+        7916368
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_hi.g.dart",
+      "file_offsets": [
+        7743024
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_id.g.dart",
+      "file_offsets": [
+        5568272
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_it.g.dart",
+      "file_offsets": [
+        6652128
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_ja.g.dart",
+      "file_offsets": [
+        5290928
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_ko.g.dart",
+      "file_offsets": [
+        8285664
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_nl.g.dart",
+      "file_offsets": [
+        7626816
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_no.g.dart",
+      "file_offsets": [
+        8896144
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_pa.g.dart",
+      "file_offsets": [
+        5780032
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_pl.g.dart",
+      "file_offsets": [
+        8180800
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_pt.g.dart",
+      "file_offsets": [
+        5840336
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_ru.g.dart",
+      "file_offsets": [
+        6815904
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_sv.g.dart",
+      "file_offsets": [
+        8376288
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_th.g.dart",
+      "file_offsets": [
+        5624384
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_tr.g.dart",
+      "file_offsets": [
+        7926224
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_uk.g.dart",
+      "file_offsets": [
+        5182000
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_ur.g.dart",
+      "file_offsets": [
+        5595312
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_vi.g.dart",
+      "file_offsets": [
+        7118432
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_zh_CN.g.dart",
+      "file_offsets": [
+        8439280
+      ]
+    },
+    {
+      "uri": "package:karing/i18n/strings_zh_TW.g.dart",
+      "file_offsets": [
+        8353872
+      ]
+    },
+    {
+      "uri": "package:karing/main.dart",
+      "file_offsets": [
+        7735360
+      ]
+    },
+    {
+      "uri": "package:karing/screens/about_screen.dart",
+      "file_offsets": [
+        7985344
+      ]
+    },
+    {
+      "uri": "package:karing/screens/add_profile_by_import_from_file_screen.dart",
+      "file_offsets": [
+        5098816
+      ]
+    },
+    {
+      "uri": "package:karing/screens/add_profile_by_link_or_content_screen.dart",
+      "file_offsets": [
+        6718944
+      ]
+    },
+    {
+      "uri": "package:karing/screens/add_profile_by_scan_qrcode_screen.dart",
+      "file_offsets": [
+        7232416
+      ]
+    },
+    {
+      "uri": "package:karing/screens/backup_and_sync_auto_backup_screen.dart",
+      "file_offsets": [
+        5610368
+      ]
+    },
+    {
+      "uri": "package:karing/screens/backup_and_sync_lan_sync_screen.dart",
+      "file_offsets": [
+        5235936
+      ]
+    },
+    {
+      "uri": "package:karing/screens/backup_and_sync_webdav_screen.dart",
+      "file_offsets": [
+        5231168
+      ]
+    },
+    {
+      "uri": "package:karing/screens/common_dialog.dart",
+      "file_offsets": [
+        7826096
+      ]
+    },
+    {
+      "uri": "package:karing/screens/common_widget.dart",
+      "file_offsets": [
+        5986736
+      ]
+    },
+    {
+      "uri": "package:karing/screens/dialog_utils.dart",
+      "file_offsets": [
+        8019120
+      ]
+    },
+    {
+      "uri": "package:karing/screens/diversion_group_custom_edit_screen.dart",
+      "file_offsets": [
+        7528208
+      ]
+    },
+    {
+      "uri": "package:karing/screens/diversion_group_custom_screen.dart",
+      "file_offsets": [
+        6788272
+      ]
+    },
+    {
+      "uri": "package:karing/screens/diversion_rule_detect_screen.dart",
+      "file_offsets": [
+        5669856
+      ]
+    },
+    {
+      "uri": "package:karing/screens/diversion_rules_custom_set_screen.dart",
+      "file_offsets": [
+        7473200
+      ]
+    },
+    {
+      "uri": "package:karing/screens/diversion_rules_screen.dart",
+      "file_offsets": [
+        5236160
+      ]
+    },
+    {
+      "uri": "package:karing/screens/dns_auto_setup_screen.dart",
+      "file_offsets": [
+        7247040
+      ]
+    },
+    {
+      "uri": "package:karing/screens/dns_settings_screen.dart",
+      "file_offsets": [
+        5205392
+      ]
+    },
+    {
+      "uri": "package:karing/screens/file_content_viewer_screen.dart",
+      "file_offsets": [
+        5705040
+      ]
+    },
+    {
+      "uri": "package:karing/screens/file_view_screen.dart",
+      "file_offsets": [
+        7188880
+      ]
+    },
+    {
+      "uri": "package:karing/screens/group_helper.dart",
+      "file_offsets": [
+        8073344
+      ]
+    },
+    {
+      "uri": "package:karing/screens/group_item_creator.dart",
+      "file_offsets": [
+        7244288
+      ]
+    },
+    {
+      "uri": "package:karing/screens/group_item_options.dart",
+      "file_offsets": [
+        7229456
+      ]
+    },
+    {
+      "uri": "package:karing/screens/group_item_widgets.dart",
+      "file_offsets": [
+        5231024
+      ]
+    },
+    {
+      "uri": "package:karing/screens/group_screen.dart",
+      "file_offsets": [
+        7282720
+      ]
+    },
+    {
+      "uri": "package:karing/screens/home_screen.dart",
+      "file_offsets": [
+        6364416
+      ]
+    },
+    {
+      "uri": "package:karing/screens/home_screen_widgets.dart",
+      "file_offsets": [
+        8301376
+      ]
+    },
+    {
+      "uri": "package:karing/screens/inapp_webview_screen.dart",
+      "file_offsets": [
+        8857248
+      ]
+    },
+    {
+      "uri": "package:karing/screens/language_settings_screen.dart",
+      "file_offsets": [
+        8919360
+      ]
+    },
+    {
+      "uri": "package:karing/screens/launch_failed_screen.dart",
+      "file_offsets": [
+        8006704
+      ]
+    },
+    {
+      "uri": "package:karing/screens/list_add_screen.dart",
+      "file_offsets": [
+        8978464
+      ]
+    },
+    {
+      "uri": "package:karing/screens/list_remove_screen.dart",
+      "file_offsets": [
+        5925552
+      ]
+    },
+    {
+      "uri": "package:karing/screens/listview_multi_parts_builder.dart",
+      "file_offsets": [
+        7115504
+      ]
+    },
+    {
+      "uri": "package:karing/screens/local_image_provider.dart",
+      "file_offsets": [
+        5138464
+      ]
+    },
+    {
+      "uri": "package:karing/screens/map_string_and_list_add_screen.dart",
+      "file_offsets": [
+        6569216
+      ]
+    },
+    {
+      "uri": "package:karing/screens/map_string_and_string_add_screen.dart",
+      "file_offsets": [
+        7924368
+      ]
+    },
+    {
+      "uri": "package:karing/screens/multi_select_screen.dart",
+      "file_offsets": [
+        5613968
+      ]
+    },
+    {
+      "uri": "package:karing/screens/my_profiles_edit_screen.dart",
+      "file_offsets": [
+        7915200
+      ]
+    },
+    {
+      "uri": "package:karing/screens/my_profiles_merge_screen.dart",
+      "file_offsets": [
+        5065904
+      ]
+    },
+    {
+      "uri": "package:karing/screens/my_profiles_reorder_screen.dart",
+      "file_offsets": [
+        6672048
+      ]
+    },
+    {
+      "uri": "package:karing/screens/my_profiles_screen.dart",
+      "file_offsets": [
+        4945488
+      ]
+    },
+    {
+      "uri": "package:karing/screens/net_check_screen.dart",
+      "file_offsets": [
+        6347424
+      ]
+    },
+    {
+      "uri": "package:karing/screens/net_connections_filter_screen.dart",
+      "file_offsets": [
+        8078736
+      ]
+    },
+    {
+      "uri": "package:karing/screens/net_connections_screen.dart",
+      "file_offsets": [
+        8298624
+      ]
+    },
+    {
+      "uri": "package:karing/screens/net_interfaces_screen.dart",
+      "file_offsets": [
+        7510080
+      ]
+    },
+    {
+      "uri": "package:karing/screens/novice_screen.dart",
+      "file_offsets": [
+        8210368
+      ]
+    },
+    {
+      "uri": "package:karing/screens/qrcode_screen.dart",
+      "file_offsets": [
+        5644640
+      ]
+    },
+    {
+      "uri": "package:karing/screens/region_settings_screen.dart",
+      "file_offsets": [
+        5891536
+      ]
+    },
+    {
+      "uri": "package:karing/screens/richtext_viewer.screen.dart",
+      "file_offsets": [
+        8943760
+      ]
+    },
+    {
+      "uri": "package:karing/screens/scheme_handler.dart",
+      "file_offsets": [
+        5132976
+      ]
+    },
+    {
+      "uri": "package:karing/screens/server_select_keywords_screen.dart",
+      "file_offsets": [
+        5692912
+      ]
+    },
+    {
+      "uri": "package:karing/screens/server_select_screen.dart",
+      "file_offsets": [
+        7992400
+      ]
+    },
+    {
+      "uri": "package:karing/screens/settings_screen.dart",
+      "file_offsets": [
+        7373760
+      ]
+    },
+    {
+      "uri": "package:karing/screens/speedtest_settings_screen.dart",
+      "file_offsets": [
+        8792032
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_db_define.dart",
+      "file_offsets": [
+        5630992
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_requests_out_destination_screen.dart",
+      "file_offsets": [
+        5517264
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_requests_out_process_screen.dart",
+      "file_offsets": [
+        8676944
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_requests_out_screen.dart",
+      "file_offsets": [
+        7041072
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_requests_table_base.dart",
+      "file_offsets": [
+        5418912
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_screen.dart",
+      "file_offsets": [
+        8637568
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_tranffic_define.dart",
+      "file_offsets": [
+        6633248
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_tranffic_trend_chart_base.dart",
+      "file_offsets": [
+        5157760
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_tranffic_trend_chart_diversion_rules_screen.dart",
+      "file_offsets": [
+        5760928
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_tranffic_trend_chart_goroutines_screen.dart",
+      "file_offsets": [
+        5690608
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_tranffic_trend_chart_memory_screen.dart",
+      "file_offsets": [
+        5911376
+      ]
+    },
+    {
+      "uri": "package:karing/screens/statistics_records_tranffic_trend_chart_screen.dart",
+      "file_offsets": [
+        8916560
+      ]
+    },
+    {
+      "uri": "package:karing/screens/text_to_qrcode_screen.dart",
+      "file_offsets": [
+        7579488
+      ]
+    },
+    {
+      "uri": "package:karing/screens/theme_data_dark.dart",
+      "file_offsets": [
+        5242800
+      ]
+    },
+    {
+      "uri": "package:karing/screens/theme_data_light.dart",
+      "file_offsets": [
+        7399216
+      ]
+    },
+    {
+      "uri": "package:karing/screens/theme_define.dart",
+      "file_offsets": [
+        7323776
+      ]
+    },
+    {
+      "uri": "package:karing/screens/themes.dart",
+      "file_offsets": [
+        5800768
+      ]
+    },
+    {
+      "uri": "package:karing/screens/urltest_group_custom_screen.dart",
+      "file_offsets": [
+        5541776
+      ]
+    },
+    {
+      "uri": "package:karing/screens/urltest_settings_screen.dart",
+      "file_offsets": [
+        7326720
+      ]
+    },
+    {
+      "uri": "package:karing/screens/user_agreement_screen.dart",
+      "file_offsets": [
+        8342256
+      ]
+    },
+    {
+      "uri": "package:karing/screens/useragent_settings_screen.dart",
+      "file_offsets": [
+        7888320
+      ]
+    },
+    {
+      "uri": "package:karing/screens/version_update_screen.dart",
+      "file_offsets": [
+        5599712
+      ]
+    },
+    {
+      "uri": "package:karing/screens/webview_helper.dart",
+      "file_offsets": [
+        8310944
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/activate_box.dart",
+      "file_offsets": [
+        7177808
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/card.dart",
+      "file_offsets": [
+        8369920
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/color.dart",
+      "file_offsets": [
+        6867632
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/constant.dart",
+      "file_offsets": [
+        6231584
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/dropdown.dart",
+      "file_offsets": [
+        5418096
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/enum.dart",
+      "file_offsets": [
+        6888880
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/fab2.dart",
+      "file_offsets": [
+        6016448
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/fade_box.dart",
+      "file_offsets": [
+        8484736
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/framework.dart",
+      "file_offsets": [
+        6631616
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/function.dart",
+      "file_offsets": [
+        7587632
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/grid.dart",
+      "file_offsets": [
+        6181408
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/multi_checkbox.dart",
+      "file_offsets": [
+        8518912
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/num.dart",
+      "file_offsets": [
+        5507328
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/rotation.dart",
+      "file_offsets": [
+        6322048
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/routes.dart",
+      "file_offsets": [
+        5142672
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/sheet.dart",
+      "file_offsets": [
+        6586976
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/super_grid.dart",
+      "file_offsets": [
+        5553296
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/tab.dart",
+      "file_offsets": [
+        7266864
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/text.dart",
+      "file_offsets": [
+        7360688
+      ]
+    },
+    {
+      "uri": "package:karing/screens/widgets/text_field.dart",
+      "file_offsets": [
+        8547936
+      ]
+    },
+    {
+      "uri": "package:vpn_service/http_request.dart",
+      "file_offsets": [
+        8246720
+      ]
+    },
+    {
+      "uri": "package:vpn_service/proxy_manager.dart",
+      "file_offsets": [
+        8544128
+      ]
+    },
+    {
+      "uri": "package:vpn_service/state.dart",
+      "file_offsets": [
+        6104656
+      ]
+    },
+    {
+      "uri": "package:vpn_service/vpn_service.dart",
+      "file_offsets": [
+        5871088
+      ]
+    },
+    {
+      "uri": "package:vpn_service/vpn_service_method_channel.dart",
+      "file_offsets": [
+        5602112
+      ]
+    },
+    {
+      "uri": "package:vpn_service/vpn_service_method_channel_pc.dart",
+      "file_offsets": [
+        5140480
+      ]
+    },
+    {
+      "uri": "package:vpn_service/vpn_service_platform_interface.dart",
+      "file_offsets": [
+        8290176
+      ]
+    }
+  ]
+}

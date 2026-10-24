@@ -1,0 +1,9 @@
+name: vpn_service
+description: Reconstructed Linux desktop VPN service adapter for Karing.
+version: 0.12.15
+publish_to: none
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter

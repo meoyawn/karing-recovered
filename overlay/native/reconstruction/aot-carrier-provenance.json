@@ -1,0 +1,12 @@
+{
+  "libapp.so": {
+    "source": ".dart_tool/reconstruction/release/opt/karing/lib/libapp.so",
+    "sha256": "312990d377b6dda47568378e4285d9ca780e7570b3c72eda052400ed748b1516",
+    "carrier_member": "lib/x86_64/libapp.so"
+  },
+  "libflutter_linux_gtk.so": {
+    "source": ".dart_tool/reconstruction/release/opt/karing/lib/libflutter_linux_gtk.so",
+    "sha256": "73a66f08ceb4d6dbbe90c53b463529a1151acd52eb2351e0e500c9f82a65de7b",
+    "carrier_member": "lib/x86_64/libflutter.so"
+  }
+}
